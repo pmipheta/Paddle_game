@@ -1,11 +1,11 @@
 from turtle import Turtle, Screen
 import random
 
-# Set up the screen and color mode first
+
 screen = Screen()
 screen.colormode(255) 
 
-# Set up the turtle
+
 turtle = Turtle()
 turtle.pensize(20)
 turtle.speed(10)
@@ -27,5 +27,4 @@ def random_walk():
 
 random_walk()
 
-# Wait for a click to close the window
 screen.exitonclick()

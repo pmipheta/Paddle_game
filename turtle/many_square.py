@@ -16,4 +16,6 @@ for shape_side in range(3,11):
     shape(shape_side)
 
 screen = Screen() 
+
 screen.exitonclick()
+
