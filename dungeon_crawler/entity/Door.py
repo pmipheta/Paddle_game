@@ -2,6 +2,7 @@ import random
 class Door:
     def __init__(self, game_map,player,enemies):
        
+    
         while True:
             row = random.randint(0, len(game_map.map) - 1)
             col = random.randint(0, len(game_map.map[0]) - 1)

@@ -1,4 +1,5 @@
 def render(game_map,player,enemies,door):
+    
     print("\n" * 5)  
 
     for r in range(len(game_map)):

@@ -12,6 +12,7 @@ def update_move(player,maps,move):
     new_row = player.row
     new_col = player.col
 
+
     if move == 'w':
         new_row -=1 
     elif move == 's':

@@ -13,7 +13,6 @@ class Enemy:
                 self.col = col
                 break
     
-
     def move(self,game_map,enemies,player):
         distance = ((abs(player.row - self.row))**2 + (abs(player.col-self.col))**2)**0.5
 
