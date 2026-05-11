@@ -1,8 +1,8 @@
 from turtle import Turtle , Screen
 import time
-from Body import Snake
-from food import Food
-from scoreboard import Scoreboard
+from snake_game.Body import Snake
+from snake_game.food import Food
+from snake_game.scoreboard import Scoreboard
 
 screen = Screen()
 screen.setup(width=600,height=600)
@@ -31,7 +31,6 @@ while gaming :
     if snake.segment[0].distance(food.turtle) < 15:
         snake.add_segment()
         scoreboard.add_score()
-
         scoreboard.update_scoreboard()
         food.spawn()
     if snake.segment[0].xcor() > 280 or snake.segment[0].xcor() < -280 or snake.segment[0].ycor() > 280 or snake.segment[0].ycor() < -280 :
