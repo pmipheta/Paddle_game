@@ -15,6 +15,7 @@ class Snake:
             new_segment.penup()
             self.segment.append(new_segment)
 
+
     def add_segment(self):
         news = Turtle("square")
         news.penup()
